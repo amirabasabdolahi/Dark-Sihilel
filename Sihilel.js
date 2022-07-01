@@ -3302,8 +3302,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Dark-Hiruu is alive now 😌💯
-││✑  🌝🖐️!!
+┌┤✑  You Used in Very Powerful Whatsapp Bot
+││✑  😉🔥!!
 │└───────────────┈ ⳹
 │ 「𝙃𝙄𝙍𝙐𝙐 𝙌𝙐𝙀𝙀𝙉 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 👩‍💻 」
 │✙ 🔥𝐒𝐏𝐄𝐄𝐃 : ${latensie.toFixed(4)} miliseconds
@@ -3315,8 +3315,21 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 🔥𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 : ${os.platform()}
 │✙ 🔥𝐓𝐎𝐓𝐀𝐋 𝐔𝐒𝐄𝐑 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  HIRUU QUEEN BOT CREATED BY SIHILEL 🦄💫
-   └───────────────┈ ⳹`,
+ │✑  HIRUU QUEEN IS ONLINE NOW......🕊️♥️
+ └───────────────┈ ⳹
+▣🕊️𝙼𝚞𝚕𝚝𝚒 𝙳𝚎𝚟𝚒𝚌𝚎 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚘𝚝
+
+𝐇𝐨𝐰 𝐂𝐚𝐧 𝐈 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮....?🕊️♥️
+
+▣🕊️𝐦𝐲 𝐧𝐚𝐦𝐞 : 𝚂_𝙸_𝙷_𝙸_𝙻_𝙴_𝙻
+
+▣🕊️𝐦𝐲 𝐛𝐢𝐫𝐭𝐡𝐝𝐚𝐲 : 2006|06|12
+
+▣🕊️𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐞 : Wa.me/+94704101989
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐛𝐨𝐭 🕊️♥️
+
+©𝙷𝙸𝚁𝚄𝚄 𝚀𝚄𝙴𝙴𝙽 𝙿𝚄𝙱𝙻𝙸𝙲 𝙴𝙳𝙸𝚃𝙸𝙾𝙽`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '😈MY WEB💯',
@@ -3335,7 +3348,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '🛸List Menu🛸',
-                                    id: `${prefix}listmenu`
+                                    id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -3363,7 +3376,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You 🙏⚡
+┌┤✑  You Used in Very Powerful Whatsapp Bot.....🕊️
 │└───────────────┈ ⳹
 │ 「 𝙃𝙄𝙍𝙐𝙐 𝙌𝙐𝙀𝙀𝙉 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 👩‍💻 」
 │✙ 🔥𝐒𝐏𝐄𝐄𝐃 : ${latensie.toFixed(4)} miliseconds
@@ -3375,8 +3388,21 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 🔥𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 : ${os.platform()}
 │✙ 🔥𝐓𝐎𝐓𝐀𝐋 𝐔𝐒𝐄𝐑 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  HIRUU QUEEN BOT CREATED BY SIHILEL 🦄💫
-   └───────────────┈ ⳹`,
+  │✑  HIRUU QUEEN 𝙱𝙾𝚃 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝚂𝙸𝙷𝙸𝙻𝙴𝙻......🕊️♥️
+ └───────────────┈ ⳹
+▣🕊️𝙼𝚞𝚕𝚝𝚒 𝙳𝚎𝚟𝚒𝚌𝚎 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚘𝚝
+
+𝐇𝐨𝐰 𝐂𝐚𝐧 𝐈 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮....?🕊️♥️
+
+▣🕊️𝐦𝐲 𝐧𝐚𝐦𝐞 : 𝚂_𝙸_𝙷_𝙸_𝙻_𝙴_𝙻
+
+▣🕊️𝐦𝐲 𝐛𝐢𝐫𝐭𝐡𝐝𝐚𝐲 : 2006|06|12
+
+▣🕊️𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐞 : Wa.me/+94704101989
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐦𝐲 𝐛𝐨𝐭 🕊️♥️
+
+©𝙷𝙸𝚁𝚄𝚄 𝚀𝚄𝙴𝙴𝙽 𝙿𝚄𝙱𝙻𝙸𝙲 𝙴𝙳𝙸𝚃𝙸𝙾𝙽`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '😈MY WEB💯',
@@ -3395,7 +3421,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '🛸List Menu🛸',
-                                    id: `${prefix}listmenu`
+                                    id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -3461,50 +3487,50 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "Random Menu",
+										"title": "Random Menu",
 										"description": "Displays The List Of Random Features",
 										"rowId": `${prefix}randommenu`
-										},
-										{
-											"title": "Random Anime Menu ",
+									},
+									{
+										"title": "Random Anime Menu ",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}randomanimemenu`
-										},
-										{
-											"title": "Fun Menu",
+									},
+									{
+										"title": "Fun Menu",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
-										},
-										{
-											"title": "Convert Menu",
+									},
+									{
+										"title": "Convert Menu",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
-										},
-										{
-											"title": "Database Menu",
+									},
+									{
+										"title": "Database Menu",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
-										},
-										{
-											"title": "Voice Changer Menu",
+									},
+									{
+										"title": "Voice Changer Menu",
 										"description": "Displays The List Of Voice Changing Features",
 										"rowId": `${prefix}voicechangermenu`
-										},
-										{
-											"title": "TXT-to-IMG Menu",
+									},
+									{
+										"title": "TXT-to-IMG Menu",
 										"description": "Displays The List Of Textpro Features",
 										"rowId": `${prefix}textpromenu`
-										},
-										{
-											"title": "Islamic Menu",
+									},
+									{
+										"title": "Islamic Menu",
 										"description": "Displays The List Of Islamic Features",
 										"rowId": `${prefix}islamicmenu`
-										},
-										{
-											"title": "Horoscope Menu",
+									},
+									{
+										"title": "Horoscope Menu",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}horoscopemenu`
-										}
+									}
 								]
 							},
 							{
