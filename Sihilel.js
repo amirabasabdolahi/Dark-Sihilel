@@ -1168,7 +1168,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
 Congratulation, Lovely Couple ❤️💖👀`
             let menst = [orang, jodoh]
             let buttons = [
-                        { buttonId: '❤️', buttonText: { displayText: '💓' }, type: 1 }
+                        { buttonId: '❤️', buttonText: { displayText: '❤️' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: menst})
             }
@@ -3265,7 +3265,7 @@ case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite'
 					GojoMdNx.sendImage(m.chat, data.url, mess.success, m)
 					})
 					break
-case "setmenuxxx": 
+case 'setmenuxxx': {
 if (!text) return reply("1. image\n2. list\n3. catalog\n\nExample .setmenu image")
 if (q == "image") {
 typemenu = 'image'
@@ -3345,16 +3345,21 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                     displayText: '🚀All Menu🚀',
                                     id: `${prefix}allmenu`
                                 }
-                                }, {
+                            }, {
                                 quickReplyButton: {
                                     displayText: '🛸List Menu🛸',
                                     id: `${prefix}command`
                                 }
-                                }, {
+                            }, {
                                 quickReplyButton: {
                                     displayText: '🎠SIHILEL🎠',
                                     id: `${prefix}owner`
                                 }
+			    }, {
+				 quickReplyButton: { 
+					 displayText: 'හායි හිරූ 🕊💯',
+					 id: `${global.hiruu}`
+				 }
                             }]
                         }
                     }
@@ -3388,7 +3393,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 🔥𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 : ${os.platform()}
 │✙ 🔥𝐓𝐎𝐓𝐀𝐋 𝐔𝐒𝐄𝐑 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-  │✑  HIRUU QUEEN 𝙱𝙾𝚃 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝚂𝙸𝙷𝙸𝙻𝙴𝙻......🕊️♥️
+  │✑  𝙷𝙸𝚁𝚄𝚄 𝚀𝚄𝙴𝙴𝙽 𝙱𝙾𝚃 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝚂𝙸𝙷𝙸𝙻𝙴𝙻......🕊️♥️
  └───────────────┈ ⳹
 ▣🕊️𝙼𝚞𝚕𝚝𝚒 𝙳𝚎𝚟𝚒𝚌𝚎 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚘𝚝
 
