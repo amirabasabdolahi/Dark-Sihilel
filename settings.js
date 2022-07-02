@@ -32,7 +32,8 @@ global.myweb = '\nhttps://sites.google.com/view/hiruu-queen-bot/home\n\n🔥༺H
 global.packname = '❤️HIRUU-QUEEN❤️'
 global.author = '❤️S_I_H_I_L_E_L❤️'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.hiruu = 'ඉතිම් කෝමද 😜😎'
+global.prefa = ['','!','.',',','#','?','%','&','sh','🦄','🕊️','🐤']
 global.sp = '⭔'
 global.mess = {
     success: 'Done🔥💯\n\n🔥༺HIRUU༒QUEEN༻🔥\n\n♥️S+H♥️',
