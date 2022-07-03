@@ -3265,7 +3265,7 @@ case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite'
 					GojoMdNx.sendImage(m.chat, data.url, mess.success, m)
 					})
 					break
-case 'setmenuxxx': {
+case 'setmenuxxx':
 if (!text) return reply("1. image\n2. list\n3. catalog\n\nExample .setmenu image")
 if (q == "image") {
 typemenu = 'image'
@@ -3355,11 +3355,6 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                     displayText: '🎠SIHILEL🎠',
                                     id: `${prefix}owner`
                                 }
-			    }, {
-				 quickReplyButton: { 
-					 displayText: 'හායි හිරූ 🕊💯',
-					 id: `${global.hiruu}`
-				 }
                             }]
                         }
                     }
@@ -3573,8 +3568,12 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 reply(`GitHub : https://github.com/Hiruu-Queen/Dark-Sihilel\n Dont Forget To Give Star\n\nBot Group : ${sc}\nCome and join with us😈🚀\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
+	case 'Hi': case 'හායි': case 'hey': case 'helo': {
+	        reply(`හායි හායි අනේ 😜..... මොකෝ කරන්නේ🕊️`)
+	    }
+break
 case 'allmenu': {
-  	anu = `
+anu = `
 🔥༺HIRUU༒QUEEN༻🔥
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔══♥️「 MAIN 」☯︎
