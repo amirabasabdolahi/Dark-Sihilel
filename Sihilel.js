@@ -3583,6 +3583,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 	case 'බොටෝ': case 'බොටා': case 'bota': case 'උබට': case 'ubt': {
 		GojoMdNx.sendMessage(m.chat.{text:'මොකෝ පකෝ 😏'},{quoted.m})
 	}
+	break
+case 'සිහිලැල්': case 'sihilel': case 'හිරූ': case 'hiruu': {
+	GojoMdNx.sendMessage(m.chat.{text:'මොකද මගේ නම කියන්නේ 🤔'},{quoted.m})
+}
 break
 case 'allmenu': {
 anu = `
