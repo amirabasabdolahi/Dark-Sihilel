@@ -3249,7 +3249,6 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner': case 'creator': case 'sihilel': case 'hiruu': {
                 reply(`🕊️♥️𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂 `+global.ownername+`\nWa.me/`+global.owner+`\n🔥༺HIRUU༒QUEEN༻🔥, m)
-		GojoMdNx.sendaudio(m.chat,{ audio : { url : 'https://a.uguu.se/tpnvsOrV.mp3'}}, { quoted: m })
             }
             break
 case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite':case 'yeet':case 'neko':case 'bully':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'awoo':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'cuddle':case 'highfive':case 'shinobu':case 'megumin':case 'handhold':
@@ -3570,7 +3569,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
 	case 'Hi': case 'හායි': case 'hey': case 'helo': case 'hellow': {
-	        reply(`හායි හායි අනේ 😜..... මොකෝ කරන්නේ🕊️`)
+	        GojoMdNx.sendMessage(m.chat, `හායි හායි අනේ 😜..... ඔයා මොකෝ කරන්නේ🕊️ ${m.pushName}`)
 	    }
 break
 case 'allmenu': {
