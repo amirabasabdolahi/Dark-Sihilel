@@ -3569,21 +3569,20 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
 	case 'hi': case 'හායි': case 'hey': case 'helo': case 'hellow': case 'හෙලෝ': {
-	        reply(`හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`)
+	        GojoMdNx.sendMessage(m.chat.{text:'හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️'},{quoted.m})
 	    }
 		break
 	case 'ඒ': case 'මේ': case 'බන්': case 'bn': case 'අනේ': {
-		reply(`මොකෝ අනේ 🥶🤭`)
+		GojoMdNx.sendMessage(m.chat.{text:'මොකෝ අනේ 🥶🤭'},{quoted.m})
 	}
 		break
 	case 'hutto': case 'hutti': case 'හුත්තෝ': case 'හුත්ති': case 'පකයා': case 'පකෝ': case 'කැරියෝ': case 'පම්කෝ': case 'හුකපන්': case 'hukapan': case 'ලබ්බ': case 'පොන්නයා': {
-		reply(`කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡`)
+		GojoMdNx.sendMessage(m.chat.{text:'කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡'},{quoted.m})
 	}
 		break
 	case 'බොටෝ': case 'බොටා': case 'bota': case 'උබට': case 'ubt': {
-		reply(`මොකෝ පකෝ 😏`)
+		GojoMdNx.sendMessage(m.chat.{text:'මොකෝ පකෝ 😏'},{quoted.m})
 	}
-		
 break
 case 'allmenu': {
 anu = `
