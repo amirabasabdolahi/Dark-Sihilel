@@ -3248,7 +3248,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'owner': case 'creator': case 'sihilel': case 'hiruu': {
-                reply(`🕊️♥️𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂 `+global.ownername+`\nWa.me/`+global.owner+`\n🔥༺HIRUU༒QUEEN༻🔥`, m)
+                reply(`🕊️♥️𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂⫸ `+global.ownername+`\n\nWa.me/`+global.owner+`\n\n🔥༺HIRUU༒QUEEN༻🔥`, m)
             }
             break
 case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite':case 'yeet':case 'neko':case 'bully':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'awoo':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'cuddle':case 'highfive':case 'shinobu':case 'megumin':case 'handhold':
@@ -3564,13 +3564,26 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/593f79c5b89b996657190.jpg' }, caption: `*Hi Bro ${m.pushName}*\nHello I am Hiruu Queen Bot.......My creater is༻Sihilel༺💯🌹\n\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n\n🔥༺HIRUU༒QUEEN༻🔥` }, { quoted: m })
             }
             break
-            case 'sc': case 'script': {
+            case 'sc': case 'script': case 'github': case 'bot group': {
                 reply(`GitHub : https://github.com/Hiruu-Queen/Dark-Sihilel\n Dont Forget To Give Star\n\nBot Group : ${sc}\nCome and join with us😈🚀\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
-	case 'Hi': case 'හායි': case 'hey': case 'helo': case 'hellow': {
-	        GojoMdNx.sendMessage(m.chat `හායි හායි අනේ 😜..... ඔයා මොකද කරන්නේ🕊️`, { quoted: m })
+	case 'hi': case 'හායි': case 'hey': case 'helo': case 'hellow': case 'හෙලෝ': {
+	        reply(`හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`)
 	    }
+		break
+	case 'ඒ': case 'මේ': case 'බන්': case 'bn': case 'අනේ': {
+		reply(`මොකෝ අනේ 🥶🤭`)
+	}
+		break
+	case 'hutto': case 'hutti': case 'හුත්තෝ': case 'හුත්ති': case 'පකයා': case 'පකෝ': case 'කැරියෝ': case 'පම්කෝ': case 'හුකපන්': case 'hukapan': case 'ලබ්බ': case 'පොන්නයා': {
+		reply(`කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡`)
+	}
+		break
+	case 'බොටෝ': case 'බොටා': case 'bota': case 'උබට': case 'ubt': {
+		reply(`මොකෝ පකෝ 😏`)
+	}
+		
 break
 case 'allmenu': {
 anu = `
