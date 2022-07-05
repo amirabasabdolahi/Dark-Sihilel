@@ -154,7 +154,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 } else if (anu.action == 'remove') {
                     GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
-⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨\n\n🔥༺HIRUU༒QUEEN༻🔥` })
+⭐✑ *හිතින් යන අය අතින් අල්ලා නවත්තන්නට බෑ* 🙃👍\n*ගියා කියලා මට ඇති පාඩුවකුත් නෑ තව අය ඉන්නවා* 😏💫\n\n🔥༺HIRUU༒QUEEN༻🔥` })
                 }
             }
         } catch (err) {
