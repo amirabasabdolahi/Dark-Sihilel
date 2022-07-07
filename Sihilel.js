@@ -2992,7 +2992,7 @@ ${id}`)
                     at: + new Date,
                     locked: false,
                 }
-                reply(`Done!`)
+                reply(`Done!\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
             case 'delcmd': {
@@ -3000,7 +3000,7 @@ ${id}`)
                 if (!hash) return reply(`No Hashes`)
                 if (global.db.data.sticker[hash] && global.db.data.sticker[hash].locked) return reply(`You Have No Permission To Delete This Sticker Command`)
                 delete global.db.data.sticker[hash]
-                reply(`Done!`)
+                reply(`Done!\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
             case 'listcmd': {
@@ -3019,7 +3019,7 @@ ${Object.entries(global.db.data.sticker).map(([key, value], index) => `${index +
                 let hash = m.quoted.fileSha256.toString('base64')
                 if (!(hash in global.db.data.sticker)) return reply(`Hash Not Found In Database`)
                 global.db.data.sticker[hash].locked = !/^un/i.test(command)
-                reply('Done!')
+                reply(`Done!\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
             case 'addmsg': {
@@ -3032,7 +3032,7 @@ reply(`Successfully Added Message In Message List As '${text}'
     
 Access With ${prefix}getmsg ${text}
 
-View List Of Messages With ${prefix}listmsg`)
+View List Of Messages With ${prefix}listmsg\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
             case 'getmsg': {
@@ -3174,13 +3174,13 @@ View List Of Messages With ${prefix}listmsg`)
             case 'public': {
                 if (!isCreator) return replay(`${mess.owner}`)
                 GojoMdNx.public = true
-                reply('Successful Change To Public Usage')
+                reply('Successful Change To Public Usage\n\n🔥༺HIRUU༒QUEEN༻🔥')
             }
             break
             case 'self': case 'private': {
                 if (!isCreator) return replay(`${mess.owner}`)
                 GojoMdNx.public = false
-                reply('Successful Change To Self Usage')
+                reply('Successful Change To Self Usage\n\n🔥༺HIRUU༒QUEEN༻🔥')
             }
             break
             case 'ping': case 'botstatus': case 'statusbot': {
@@ -3248,7 +3248,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'owner': case 'creator': case 'sihilel': case 'hiruu': {
-                reply(`🕊️♥️𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂⫸ `+global.ownername+`\n\nWa.me/`+global.owner+`\n\n🔥༺HIRUU༒QUEEN༻🔥`, m)
+                reply(`🕊️♥️𝙼𝚈 𝙾𝚆𝙽𝙴𝚁 𝙸𝚂⫸ `+global.ownername+`😉\n\nWa.me/`+global.owner+`\n\n🔥༺HIRUU༒QUEEN༻🔥`, m)
             }
             break
 case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite':case 'yeet':case 'neko':case 'bully':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'awoo':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'cuddle':case 'highfive':case 'shinobu':case 'megumin':case 'handhold':
@@ -3258,7 +3258,7 @@ case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite'
 						GojoMdNx.sendImageAsSticker(m.chat, data.url, m, { packname: global.packname, author: global.author })
 					})
 					break
-				case 'waifu': case 'loli':
+				case 'waifu': case 'loli': case 'gf':
 					reply(mess.wait)
 					axios.get(`https://api.waifu.pics/sfw/waifu`)
 					.then(({data}) => {
@@ -3568,12 +3568,28 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 reply(`GitHub : https://github.com/Hiruu-Queen/Dark-Sihilel\n Dont Forget To Give Star\n\nBot Group : ${sc}\nCome and join with us😈🚀\n\n🔥༺HIRUU༒QUEEN༻🔥`)
             }
             break
-	case 'hi': case 'හායි': case 'hey': case 'helo': case 'hellow': case 'හෙලෝ': {
-	        GojoMdNx.sendMessage(m.chat.{text:'හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️'},{quoted.m})
+	case 'hi': case 'හායි': case 'hey': case 'helo': case 'hellow': case 'හෙලෝ': case 'හලෝ': {
+	        reply(`හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`)
 	    }
 		break
 	case 'hutto': case 'hutti': case 'හුත්තෝ': case 'හුත්ති': case 'පකයා': case 'පකෝ': case 'කැරියෝ': case 'පම්කෝ': case 'හුකපන්': case 'hukapan': case 'ලබ්බ': case 'පොන්නයා': {
-		GojoMdNx.sendMessage(m.chat.{text:'කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡'},{quoted.m})
+		(`කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡`)
+	}
+		break
+	case 'ඒ': case 'මේ': case 'අනේ': case '😭': {
+		reply(`මොකෝ අනේ 🥶🤭`)
+	}
+		break
+	case 'අඩෝ': case 'ඕයි': case 'oi': case 'ado': case 'ballo': case 'බල්ලෝ': {
+		reply(`මොකෝ පකෝ 😏💫`)
+	}
+		break
+	case 'bn': case 'බන්': case '🤔': {
+		reply(`ඇයි 🤔`)
+	}
+		break
+	case 'hiruu': case 'sihilel': case 'සිහිලැල්': case 'හිරූ': {
+		reply(`මොකද මගේ නම කියන්නේ 😳♥️`)
 	}
 break
 case 'allmenu': {
