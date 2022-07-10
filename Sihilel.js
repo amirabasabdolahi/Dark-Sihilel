@@ -3569,27 +3569,27 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
 	case 'hi': case 'හායි': case 'hey': case 'helo': case 'hellow': case 'හෙලෝ': case 'හලෝ': {
-	        GojoMdNx.sendText(m.chat, `හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`)
+	        GojoMdNx.sendText(m.chat, `හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`,m)
 	    }
 		break
 	case 'hutto': case 'hutti': case 'හුත්තෝ': case 'හුත්ති': case 'පකයා': case 'පකෝ': case 'කැරියෝ': case 'පම්කෝ': case 'හුකපන්': case 'hukapan': case 'ලබ්බ': case 'පොන්නයා': {
-		GojoMdNx.sendText(m.chat, {text: 'කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡'},{quoted.m})
+		GojoMdNx.sendText(m.chat, `කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡`,m)
 	}
 		break
 	case 'ඒ': case 'මේ': case 'අනේ': case '😭': {
-		reply(`මොකෝ අනේ 🥶🤭`)
+		GojoMdNx.sendText(m.chat, `මොකෝ අනේ 🥶🤭`,m)
 	}
 		break
 	case 'අඩෝ': case 'ඕයි': case 'oi': case 'ado': case 'ballo': case 'බල්ලෝ': {
-		reply(`මොකෝ පකෝ 😏💫`)
+		GojoMdNx.sendText(m.chat,`මොකෝ පකෝ 😏💫`,m)
 	}
 		break
 	case 'bn': case 'බන්': case '🤔': {
-		reply(`ඇයි 🤔`)
+		GojoMdNx.sendText(m.chat,`ඇයි 🤔`,m)
 	}
 		break
 	case 'hiruu': case 'sihilel': case 'සිහිලැල්': case 'හිරූ': {
-		reply(`මොකද මගේ නම කියන්නේ 😳♥️`)
+		GojoMdNx.sendText(m.chat,`මොකද මගේ නම කියන්නේ 😳♥️`,m)
 	}
 break
 case 'allmenu': {
