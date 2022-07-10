@@ -3573,7 +3573,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 	    }
 		break
 	case 'hutto': case 'hutti': case 'හුත්තෝ': case 'හුත්ති': case 'පකයා': case 'පකෝ': case 'කැරියෝ': case 'පම්කෝ': case 'හුකපන්': case 'hukapan': case 'ලබ්බ': case 'පොන්නයා': {
-		reply(`කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡`)
+		GojoMdNx.sendText(m.chat, {text: 'කුණුහරුප කියන්න එපා හුත්තෝ 🤬😡'},{quoted.m})
 	}
 		break
 	case 'ඒ': case 'මේ': case 'අනේ': case '😭': {
