@@ -3286,7 +3286,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     }
 		break
 	case 'info': case 'about': {
-		GojoMdNx.sendMessage(from, { text: `Try for this!\n༺HIRUU༒QUEEN༻\n\nhttps://sites.google.com/view/hiruu-queen-bot/home` }, { quoted: m })
+		GojoMdNx.sendMessage(from, { text: `Try for this!\n🔥༺HIRUU༒QUEEN༻🔥\n\nhttps://sites.google.com/view/hiruu-queen-bot/home` }, { quoted: m })
 	}
                     break
                      case 'alive': case 'bot': case 'hiruu bot': {
@@ -3569,7 +3569,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
 	case 'hi': case 'හායි': case 'hey': case 'helo': case 'hellow': case 'හෙලෝ': case 'හලෝ': {
-	        reply(`හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`)
+	        GojoMdNx.sendText(m.chat, `හායි හායි අනේ 😜..... ඉතිම් මොකද කරන්නේ🕊️`)
 	    }
 		break
 	case 'hutto': case 'hutti': case 'හුත්තෝ': case 'හුත්ති': case 'පකයා': case 'පකෝ': case 'කැරියෝ': case 'පම්කෝ': case 'හුකපන්': case 'hukapan': case 'ලබ්බ': case 'පොන්නයා': {
