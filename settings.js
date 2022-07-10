@@ -22,12 +22,12 @@ global.APIKeys = {
 global.owner = ['+94704101989']
 global.premium = ['94704101989']
 global.ownernomer = '94704101989'
-global.ownername = '❤️S_I_H_I_L_E_L❤️'
+global.ownername = 'S_I_H_I_L_E_L'
 global.botname = '❤️𝙷𝙸𝚁𝚄𝚄_𝚀𝚄𝙴𝙴𝙽_𝙱𝙾𝚃❤️'
 global.footer = '©Sihilel.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://chat.whatsapp.com/EwphFG6ODjPB58thBlY7Fi'
+global.sc = 'https://chat.whatsapp.com/KCb5XO0jhm676fNwkJz93\n\n🔥༺HIRUU༒QUEEN༻🔥'
 global.myweb = '\nhttps://sites.google.com/view/hiruu-queen-bot/home\n\n🔥༺HIRUU༒QUEEN༻🔥'
 global.packname = '❤️HIRUU-QUEEN❤️'
 global.author = '❤️S_I_H_I_L_E_L❤️'
@@ -36,7 +36,7 @@ global.hiruu = 'ඉතිම් කෝමද 😜😎'
 global.prefa = ['','!','.',',','#','?','%','&','sh','🦄','🕊️','🐤']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done🔥💯\n\n🔥༺HIRUU༒QUEEN༻🔥\n\n♥️S+H♥️',
+    success: 'ඔන්න හරි 🔥💯\n\n🔥༺HIRUU༒QUEEN༻🔥\n\n♥️S+H♥️',
     admin: 'ඇඩ්මින්ලට විතරයි මේක පුලුවන් ළමයෝ 🌝\n\n🔥༺HIRUU༒QUEEN༻🔥\n\n♥️S+H♥️',
     botAdmin: 'ඇඩ්මින් දියන්කෝ මුලින් 😒\n\n🔥༺HIRUU༒QUEEN༻🔥\n\n♥️S+H♥️',
     owner: 'Owner ට විතරයි ළමයෝ ඕක පුලුවන් 🙏 \n\n🔥༺HIRUU༒QUEEN༻🔥\n\n♥️S+H♥️',
